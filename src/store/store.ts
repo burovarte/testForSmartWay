@@ -68,7 +68,7 @@ class Store {
         }
       }
 
-      async fetchSelectedRep(inputValue:string){
+      async fetchSelectedRep(){
         try {
           
           const response = await fetch(`https://api.github.com/repos/${this.selectRep}/readme`, {

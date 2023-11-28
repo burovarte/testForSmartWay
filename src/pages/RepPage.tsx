@@ -7,7 +7,7 @@ const RepPage: React.FC = () => {
 	const [readme, setReadme] = useState("");
 
 	useEffect(() => {
-		store.fetchSelectedRep(store.selectRep);
+		store.fetchSelectedRep();
 		setReadme(atob(store.selectRepDesc?.content));
 	}, [store.selectRep, readme]);
 
