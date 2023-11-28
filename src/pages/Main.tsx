@@ -1,4 +1,3 @@
-import React from "react";
 import { SetStateAction, useEffect, useState } from "react";
 import "../App.css";
 import { useStore } from "../store/store";

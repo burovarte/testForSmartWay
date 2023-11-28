@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { observer } from "mobx-react-lite";
-import { useParams } from "react-router-dom";
 import { useStore } from "../store/store";
 
 const RepPage: React.FC = () => {
